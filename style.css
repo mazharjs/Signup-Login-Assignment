@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+video {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    z-index: -1;
+}
+
+/* -----logo style start---- */
+.logo {
+    padding-left: 20px;
+}
+
+.logo h3 {
+    color: #28e98c;
+    font-weight: 600;
+    padding-top: 8px;
+    letter-spacing: 5px;
+}
+
+.logo-clr {
+    letter-spacing: 5px;
+    font-family: 'Black Ops One', cursive !important;
+    color: aliceblue;
+}
+
+/* ------logo style end---- */
+/* ------navbar style start---- */
+.cont1 {
+    width: 100% !important;
+    height: 50px !important;
+}
+
+.cont-2 {
+    justify-content: flex-end !important;
+}
+
+.cont1 ul li {
+    padding-left: 20px !important;
+}
+
+.cont-2 ul li a {
+    color: white !important;
+    transition: 0.7s;
+    transition-property: color;
+}
+
+.cont-2 ul li a:hover {
+    color: #04fa83 !important;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    color: white !important;
+    background-color: #ffff !important;
+    border: #ffff !important;
+}
+
+/* -------nav bar style end---- */
+/* -----button style--- */
+.btn-1 {
+    color:#28e98c;
+    background-color: transparent;
+    height: 35px !important;
+    border-color: #28e98c !important;
+    border-radius: 20px !important;
+    margin-top: 3px;
+    width: 150px;
+    transition: 0.6s;
+    transition-property: all;
+}
+
+.btn-1:hover {
+    box-shadow: 0 2px 5px 0 #28e98c,
+        0 2px 5px 0 #28e98c inset,
+        0 2px 5px 0 #28e98c,
+        0 2px 5px 0 #28e98c inset;
+}
+
+.btn-1 a {
+    text-decoration: none;
+    margin-top: -4px;
+    color: #28e98c !important;
+}
+
+/* ----button style end------ */
+/* ------banner style start---- */
+.text-colour {
+    color: #28e98c;
+    font-weight: bolder;
+}
+
+.para1 {
+    padding-top: 20%;
+    font-size: 30px;
+    margin-bottom: -0.5%;
+    font-weight: 600;
+    color: white !important;
+
+}
+
+.para2 {
+    font-size: 30px;
+    color: white !important;
+
+}
+
+.hed-1 {
+    font-size: 60px;
+    color: white !important;
+}
+
+/* -----banner style end--- */
+
+/* -----signup-foam style start--- */
+.sign-bodyss {
+    margin-top: 50px !important;
+
+    color: white;
+}
+
+.signup-foam {
+    color: white;
+    height: 580px;
+    width: 360px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    border: none;
+    margin: auto !important;
+
+}
+
+.signup-foam h1 {
+    text-align: center;
+padding-top: 7px;
+}
+
+.signup-foam h4 {
+    text-align: center;
+    margin-top: 15px !important;
+}
+
+.signup-foam form {
+    width: 320px !important;
+    margin-left: 20px !important;
+}
+
+.signup-foam form label {
+    display: flex;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.signup-foam form input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid grey !important;
+    border-radius: 5px !important;
+    outline: none !important;
+}
+
+.signup-foam form button {
+    margin-top: 20px !important;
+    width: 100%;
+}
+
+.signup-foam form p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+}
+.sign-bodyss p{
+    text-align: center;
+    padding-top: 20px;
+}
+.sign-bodyss p a{
+    color: #04fa83;
+}
+/* -----signup-foam style end--- */
+/* -----login-foam-foam style start--- */
+
+.login-bodyss {
+    margin-top: 50px !important;
+
+    color: white;
+}
+
+.login-foam{
+    color: white;
+    height: 380px;
+    width: 360px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    border: none;
+    margin: auto !important;
+}
+.login-foam h1 {
+    text-align: center;
+padding-top: 7px;
+}
+.login-foam h4 {
+    text-align: center;
+    margin-top: 15px !important;
+}
+
+.login-foam form {
+    width: 320px !important;
+    margin-left: 20px !important;
+}
+
+.login-foam form label {
+    display: flex;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.login-foam form input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid grey !important;
+    border-radius: 5px !important;
+    outline: none !important;
+}
+
+.login-foam form button {
+    margin-top: 20px !important;
+    width: 100%;
+}
+
+.login-foam form p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+}
+.login-bodyss p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.login-bodyss p a{
+    color: #04fa83;
+}
+/* -----login-foamstyle end--- */
